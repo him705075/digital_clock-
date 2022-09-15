@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+        .container{
+            background: #efeef3!important;
+            overflow: hidden;
+        }
+
+        .container a{
+            float: left;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none; /* for removing link identifier */
+            font-size: 17px;
+        }
+
+        .container a:hover{
+            background: rgb(194, 213, 221);
+            color: rgb(0, 0, 0);
+        }
+
+        .mainn{
+            display: flex;
+            justify-content: center;
+            padding: 1vw;
+        }
+        
+        .cont{
+            /* text-align: center; */
+            padding: 2vw;
+            height: 56vh;
+            width: 60vw;
+            border-radius: 5px;
+            background-color: rgba(161, 180, 167, 0.253);
+        }
+
+        .button{
+            border-radius: 7px;
+            padding: 10px;
+            background-color: #007bff ;
+            color: aliceblue;
+            border-color: #007bff 10px;
+        }
+
+        .h11{
+            font-family: 'Zen Kaku Gothic New', sans-serif;
+            font-size: 50px;    
+        }
+
+        .detail{
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
